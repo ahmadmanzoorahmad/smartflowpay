@@ -1,0 +1,25 @@
+{
+  "name": "smartflow-pay-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for SmartFlow Pay invoice-based stablecoin payments",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:bsctest": "hardhat run scripts/deploy.js --network bsctest",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4"
+  },
+  "keywords": [
+    "smartflow",
+    "payments",
+    "stablecoin",
+    "bsc",
+    "bnb-chain"
+  ],
+  "license": "MIT"
+}
